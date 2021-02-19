@@ -1,0 +1,42 @@
+body{
+    background: rgb(92, 90, 90);
+    font-family: monospace;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0pxs;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.header {
+background:white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
